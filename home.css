@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+	padding: 1em;
+	background-color:#FFFAF0 ;
+	
+}
+header{
+	border: 3px solid transparent;
+	font-family: "Comic Sans MS",sans;
+}
+.inner_header{
+	background-color:#FFE4E1;
+	height: 4em;
+}
+.inner_header a{
+  margin: 1em;
+  padding: 1em;
+  color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.logo{
+  padding-top: 0.5em;
+	float: left;
+	font-size: 1.5em;
+	font-family: "Arial Black",sans;
+  font-weight: bold;
+}
+.signup,.signin{
+	padding: 1em;
+	float: right;
+}
+.signup span,.signin span{
+	 font-size: 1em;
+    display:block;
+    text-transform:uppercase;
+}
+.fa-user-plus:hover,.fa-sign-in-alt:hover{
+    color: #FF5BD7 ;
+}
+.signin span:hover,.signup span:hover{
+  color:#FF5BD7;
+}
+.head_nav{
+	height: 4em;
+	border: 3px solid transparent;
+	margin: 0;
+  padding: 2px;
+	background-color: #FFF5EE;
+}
+nav{
+	display: inline-block;
+	margin: 1em;
+	border: 1px solid transparent;
+}
+nav a{
+  margin: 0.5em;
+	padding: 1em;
+	color: #000;
+	text-align: center;
+  text-decoration: none;
+  transition: 0.6s all;
+}
+nav a:hover
+{
+  background-color: #FFE4E1;
+  color:	#8B0000;
+}
+form{
+	display: inline-block;
+}
+input[type=text]{
+	border: 0.2em solid #000;
+	border-radius: 0.5em;
+  width: 300px;
+} 
+.icon{
+  color: #000;
+}
+.icon:hover{
+  color:#FF72DD ;
+}
+.bg_img{
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #f8f8f8;
+	background: url('https://www.thefragranceshop.co.uk/blog/wp-content/uploads/2019/08/shutterstock_641814016-1200x675.jpg') no-repeat center;
+ 	background-size: cover; 
+}
+.inner_bg{
+	padding-top: 12%;
+	margin: auto;
+	width: 80%;
+}
+.content{
+	padding: 6%;
+	overflow:hidden;
+	margin: 12%;
+	background-color: #FFF0FF ;
+	max-width: 700px;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS",sans;
+	color: #000;
+}
+#btn{
+	background-color: #CFFC44;
+	border:0.1em solid transparent;
+	border-radius: 0.3em;
+	text-align: center;
+	font-size: 1em;
+	padding: 0.5em;
+}
+#trend h2{
+	font-family: "Comic Sans MS",sans;
+	color: black;
+	text-align: center;
+  background-color: #FFF5EE
+}
+.deals{
+	width:22%;
+	display: block;
+	padding: 0.25em;
+	margin-bottom: 1em;
+	line-height: 1.5;
+	background-color: #FDF2E9 ;
+	border: 1px solid #ddd;
+	border-radius: 0.25px;
+	float:left;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+.thumbnail{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.details{
+	color:#000;
+	padding:0px 10px 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.c0{
+  display: block;
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: auto;
+  backgroung-color: #FFE4C4;
+  font-size: 1.5em;
+  font-family:"Comic sans MS",sans;
+  font-weight: bold;
+  text-align: center;
+}
+.foot
+{
+  
+  background:#fff;
+  color:#a4a4a4;
+  font-size:14px;
+  padding:10px;
+  font-family:"Comic sans MS",sans;
+  font-weight: bold;
+  display:flex; 
+}
+ul
+{
+  padding-left:0;
+  list-style-type:none;
+}
+.foot p{
+  color:#696969;
+}
+.foot h3{
+  color:#000;
+  margin-bottom:20px;
+}
+.c1,.c2,.c3,.c4
+{
+  min-width:250px;
+  margin-bottom:20px;
+}
+
+.c3 i
+{
+  font-size: 40px;
+}
+.c3
+{
+  flex-basis:60%;
+}
+.c4
+{
+  margin-top:20px;
+  flex-basis:70%;
+}
