@@ -84,36 +84,22 @@ input[type=text]{
 .icon:hover{
   color:#FF72DD ;
 }
-.bg_img{
-	padding-bottom: 50px;
-	margin-bottom: 20px;
-	text-align: center;
-	color: #f8f8f8;
-	background: url('https://www.thefragranceshop.co.uk/blog/wp-content/uploads/2019/08/shutterstock_641814016-1200x675.jpg') no-repeat center;
- 	background-size: cover; 
-}
-.inner_bg{
-	padding-top: 12%;
-	margin: auto;
-	width: 80%;
-}
 .content{
-	padding: 6%;
-	overflow:hidden;
-	margin: 12%;
-	background-color: #FFF0FF ;
-	max-width: 700px;
-	font-size: 1.5em;
-	font-family: "Comic Sans MS",sans;
-	color: #000;
+  margin-left:auto;
+  margin-right:auto;
+  min-width:1000px;
 }
-#btn{
-	background-color: #CFFC44;
-	border:0.1em solid transparent;
-	border-radius: 0.3em;
-	text-align: center;
-	font-size: 1em;
-	padding: 0.5em;
+.content,.auto{margin-left:auto;margin-right:auto}
+.content{max-width:980px}
+.auto{max-width:1140px}
+.display-container{
+  position:relative
+}
+.display-container:hover .display-hover{display:block}
+.display-container:hover span.display-hover{display:inline-block}
+.display-hover{display:none}
+.slides{
+  display: none;
 }
 #trend h2{
 	font-family: "Comic Sans MS",sans;
